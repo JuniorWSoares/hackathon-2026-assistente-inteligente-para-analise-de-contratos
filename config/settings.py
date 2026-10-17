@@ -129,6 +129,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/6.1/howto/static-files/
 
 STATIC_URL = 'static/'
+MEDIA_URL = "/media/"
+MEDIA_ROOT = BASE_DIR / "media"
+MAX_DOCUMENT_UPLOAD_SIZE = 10 * 1024 * 1024
 
 
 # Email
