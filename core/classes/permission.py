@@ -8,10 +8,6 @@ class CustomPermissionClass(BasePermission):
         if not request.user or not request.user.is_authenticated:
             self._raise_permission_denied()
 
-        router_user = getattr(view, "router_user", None)
-        if router_user and request.user.role not in router_user:
-            self._raise_permission_denied()
-
         return True
 
     def _raise_permission_denied(self):

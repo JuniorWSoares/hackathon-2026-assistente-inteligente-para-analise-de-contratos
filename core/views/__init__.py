@@ -1,4 +1,4 @@
-﻿from core.modules.auth.view import ViewTokenObtainPair
-from core.modules.user.view import UserViewSet
+﻿from core.modules.auth.view import ViewRegister, ViewTokenObtainPair
+from core.modules.company.view import CompanyViewSet
 
-__all__ = ["UserViewSet", "ViewTokenObtainPair"]
+__all__ = ["CompanyViewSet", "ViewRegister", "ViewTokenObtainPair"]
