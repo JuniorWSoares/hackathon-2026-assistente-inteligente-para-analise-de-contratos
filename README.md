@@ -1,0 +1,1 @@
+# hackathon-2026-assistente-inteligente-para-analise-de-contratos
